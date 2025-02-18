@@ -1,0 +1,124 @@
+/* Import Orbitron font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  font-family: 'Orbitron', sans-serif;
+  color: #e0e0e0;
+  line-height: 1.6;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Styles */
+form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  width: 300px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+input[type="text"]::placeholder {
+  color: #bbb;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #00dbde, #fc00ff);
+  color: #fff;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(252, 0, 255, 0.4);
+}
+
+/* Error Message */
+.error {
+  color: #ff4d4d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Data Table Section */
+.data-table {
+  margin-top: 20px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+  background: linear-gradient(135deg, #fc00ff, #00dbde);
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Links */
+a {
+  color: #00dbde;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #fc00ff;
+  text-decoration: underline;
+}
